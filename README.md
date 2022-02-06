@@ -9,6 +9,10 @@ To install Android Studio on your system, run **`sudo ./install.sh`**. The defau
 
 When running the installation script, it will download the latest version as listed in the */android-studio/about* file. I haven't found any way (in Bash) to automatically check for the latest release. I will add this feature as soon as I find a way to do that.
 
+# Updating
+
+Since this repository not will always include the latest version of the program, the best way to update the Android Studio is by clicking on the “check for updates” button available in the IDE.
+
 ## Uninstall
 
 To uninstall the program, run **`sudo ./uninstall.sh`**. If you have changed the default installation directory, you will also need to change the variable values in the uninstallation script accordingly.
